@@ -3,7 +3,7 @@
    <description url="http://www.rowlo.de/mousefeedfork/updatesite">
       The main MouseFeed Fork Eclipse Update server. Fork was started on branch 1.0.
    </description>
-   <feature url="features/com.mousefeed.feature_1.1.0.jar" id="com.mousefeed.feature" version="1.1.0">
+   <feature url="features/com.mousefeed.feature_1.1.1.jar" id="com.mousefeed.feature" version="1.1.1">
       <category name="MouseFeed"/>
    </feature>
    <category-def name="MouseFeed" label="MouseFeed Plugin">
