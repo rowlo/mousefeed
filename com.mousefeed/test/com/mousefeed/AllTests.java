@@ -16,3 +16,20 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with MouseFeed.  If not, see <http://www.gnu.org/licenses/>.
  */
+package com.mousefeed;
+
+import com.mousefeed.client.AllClientTests;
+import com.mousefeed.eclipse.AllEclipseTests;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
+
+/**
+ * 
+ * @author Robert Wloch (robert@rowlo.de)
+ */
+@RunWith(Suite.class)
+@SuiteClasses({ AllClientTests.class, AllEclipseTests.class })
+public class AllTests {
+
+}
